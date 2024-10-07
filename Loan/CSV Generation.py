@@ -212,7 +212,7 @@ def assign_net_worth_risk(net_worth):
 def calculate_overall_risk(row):
     base_score = (
         assign_credit_score_risk(row['CreditScore']) * 3 +
-        assign_dti_risk(row['DebtToIncomeRatio']) * 2 +
+        assign_dti_risk(row['TotalDebtToIncomeRatio']) * 2 +
         assign_payment_history_risk(row['PaymentHistory']) * 2 +
         assign_bankruptcy_risk(row['BankruptcyHistory']) * 3 +
         assign_previous_defaults_risk(row['PreviousLoanDefaults']) * 3 +
