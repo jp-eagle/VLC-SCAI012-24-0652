@@ -48,17 +48,6 @@ Machine Learning Model for Credit Risk Assessment
 
 1. [Learning Source1](https://www.youtube.com/watch?v=C3l92t0WmyQ&list=PLHPuG1bQvaJGTnmTp8nbNfEzcU9dT8jKQ&index=1)
 
-## added to git version testing
-
-## Study and Research
-
-- Credit Score, simplify the approval, pricing, and additional actions (like cross sell, refinance, )
-- Alternative Risk assessment, [Credit Score to Credit Risk Assessment](https://www.fibe.in/blogs/credit-score-vs-credit-risk-assessment-whats-the-difference/)
-- [Personal Credit Report](https://www.creditbureau.com.sg/pdf/UYCR_Updated_25_July_2024.pdf) in Singapore, [Sample Report](https://www.creditbureau.com.sg/pdf/Enhanced-Consumer-Credit-Report-2022.pdf), [Brief](https://www.creditbureau.com.sg/credit-score.html)
-- What is [Credit Inquiry](https://www.experian.com/blogs/ask-experian/how-many-hard-inquiries-is-too-many/)
-- What is [Line of Credit](https://www.investopedia.com/terms/l/lineofcredit.asp)
-
-
 ## Dataset Study
 
 | Field | Description |
@@ -66,7 +55,7 @@ Machine Learning Model for Credit Risk Assessment
 |ApplicationDate|Loan Application Date|
 |Age|Age, 18-80, in Years|
 |AnnualIncome|Annual Income, in $|
-|CreditScore|Credit Score, Credit Bureau issue, in number|
+|CreditScore|Credit Score, Credit Bureau issue, in number, [Introduction](https://www.creditbureau.com.sg/credit-score.html), [Singapore Personal Credit Report](https://www.creditbureau.com.sg/pdf/UYCR_Updated_25_July_2024.pdf), [Additional Sample](https://www.creditbureau.com.sg/pdf/Enhanced-Consumer-Credit-Report-2022.pdf)|
 |EmploymentStatus|Employment Status, Employed/Self-Employed/unemployed|
 |EducationLevel|Education Level, High School/ Associate/ Bachelor/ Master/ Doctorate|
 |Experience| Number of Experiences, 0-61, in Years|
@@ -77,8 +66,8 @@ Machine Learning Model for Credit Risk Assessment
 |HomeOwnershipStatus|Home Ownership, Own/ Mortgage/ Rent/ Other|
 |MonthlyDebtPayments|Monthly Debt Payments|
 |CreditCardUtilizationRate|Credit Card Utilization Rate|
-|NumberOfOpenCreditLines|Number of Open Credit Line, 0-13|
-|NumberOfCreditInquiries|Number of Inquiries to Credit, 0-7|
+|NumberOfOpenCreditLines|Number of Open Credit Line, 0-13, [Source](https://www.investopedia.com/terms/l/lineofcredit.asp)|
+|NumberOfCreditInquiries|Number of Inquiries to Credit, 0-7, [Source](https://www.experian.com/blogs/ask-experian/how-many-hard-inquiries-is-too-many/)|
 |DebtToIncomeRatio|??, Suspected it is wrongly Created, assume it is TotalDebtToIncomeRatio|
 |BankruptcyHistory|Bankrupted before(1) or not(0)|
 |LoanPurpose|Loan Purpose, Home/ Auto/ Education/ Debt Consolidation/ Other|
@@ -98,7 +87,7 @@ Machine Learning Model for Credit Risk Assessment
 |MonthlyLoanPayment|= Mortgage Calculation based on InterestRate, LoanAmount and LoanDuration, [Calculator](https://www.calculator.net/mortgage-calculator.html)|
 |TotalDebtToIncomeRatio|= (MonthlyDebtPayments + MonthlyLoanPayment) / MonthlyIncome|
 |LoanApproved|Loan Approved(1) or Rejected(0)|
-|RiskScore|Risk Score|
+|RiskScore|Risk Score, [Credit Score to Credit Risk Assessment](https://www.fibe.in/blogs/credit-score-vs-credit-risk-assessment-whats-the-difference/)|
 
 ### Preprocessing
 
