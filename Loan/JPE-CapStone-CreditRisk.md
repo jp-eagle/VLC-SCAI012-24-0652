@@ -68,18 +68,18 @@ Machine Learning Model for Credit Risk Assessment
 |CreditCardUtilizationRate|Credit Card Utilization Rate|
 |NumberOfOpenCreditLines|Number of Open Credit Line, 0-13, [Source](https://www.investopedia.com/terms/l/lineofcredit.asp)|
 |NumberOfCreditInquiries|Number of Inquiries to Credit, 0-7, [Source](https://www.experian.com/blogs/ask-experian/how-many-hard-inquiries-is-too-many/)|
-|DebtToIncomeRatio|??, Suspected it is wrongly Created, assume it is TotalDebtToIncomeRatio|
+|DebtToIncomeRatio|??, Suspected it is wrongly Created, assume it is TotalDebtToIncomeRatio, ignore it|
 |BankruptcyHistory|Bankrupted before(1) or not(0)|
 |LoanPurpose|Loan Purpose, Home/ Auto/ Education/ Debt Consolidation/ Other|
 |PreviousLoanDefaults|Default before(1) or not(0)|
-|PaymentHistory|8-45, in Month?|
+|PaymentHistory|8-45, in Month?, logic is inconsistent in manual algorithm, ignore it|
 |LengthOfCreditHistory|1-29, in Year?|
 |SavingsAccountBalance|Saving Amount|
 |CheckingAccountBalance|Cheque Amount|
 |TotalAssets|Total Assets Value|
 |TotalLiabilities|Total Liabilities Value|
 |MonthlyIncome|= Annual Income / 12|
-|UtilityBillsPaymentHistory|??|
+|UtilityBillsPaymentHistory|?? not used in manual algorithm, ignore it|
 |JobTenure|how long to work in current job, 0-16, in years|
 |NetWorth|= Total Assets - Total Liabilities|
 |BaseInterestRate|Starting Interest Rate|
