@@ -1,4 +1,4 @@
-# CapStone Project for NTUC Module VLC-SCAI012-24-0652
+# CapStone Project Proposal for NTUC Module VLC-SCAI012-24-0652
 
 ## Project Description
 
@@ -36,7 +36,7 @@ Machine Learning Model for Credit Risk Assessment
    1. Summarize key finding
    2. Provide suggestions for future work.
 
-## Dataset and its sample code
+## Datasets and its sample codes
 
 1. [Loan.csv|20,000](https://www.kaggle.com/datasets/lorenzozoppelletto/financial-risk-for-loan-approval/data), [Code1](https://www.kaggle.com/code/lorenzozoppelletto/financial-regression-and-binary-classification), [Code2](https://www.kaggle.com/code/jayrdixit/financial-risk-loan-approval)
 2. [finance_dataset.csv|10,000](https://www.kaggle.com/datasets/kushagrakashyap23/finance-dataset)
